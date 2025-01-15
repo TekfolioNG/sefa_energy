@@ -8,14 +8,14 @@ export default defineNuxtConfig({
       ],
     }
   },
-  devtools: { enabled: true },  // This was duplicated
-  css: ["~/assets/css/main.css"], // This was duplicated
+  devtools: { enabled: true },
+  css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
-  },  // This was duplicated
+  },
   modules: [
     "nuxt-icon-tw",
     "@nuxtjs/google-fonts",
@@ -54,6 +54,17 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'cloudflare'
+    preset: 'cloudflare',
+    prerender: {
+      failOnError: false,
+      crawlLinks: true
+    }
   },
+
+  experimental: {
+    payloadExtraction: false,
+    inlineSSRStyles: false
+  },
+  // Add this for Cloudflare compatibility
+  ssr: true
 });
