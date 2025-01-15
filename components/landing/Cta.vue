@@ -1,13 +1,23 @@
 <template>
-  <div
-    class="bg-black px-20 py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center"
-  >
-    <h2 class="text-white text-3xl md:text-6xl">Build faster websites.</h2>
-    <p class="text-slate-500 mt-4 text-lg md:text-xl">
-      Static or Dynamic, the choice is yours with Nuxt's hybrid rendering modes.
-    </p>
-    <div class="flex mt-5">
-      <LandingLink href="#" styleName="inverted">Get Started</LandingLink>
+  <div class="px-4 sm:px-20 py-12 sm:py-20 mt-4 sm:mt-5 mx-auto max-w-6xl rounded-lg mb-4">
+    <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+      <!-- Image -->
+      <div class="w-full md:w-1/2">
+        <img src="~/assets/img/sefa_cta.jpg" alt="Sefa CTA" class="rounded-lg w-full">
+      </div>
+
+      <!-- Content -->
+      <div class="w-full md:w-1/2 flex flex-col items-start md:items-end text-left md:text-right">
+        <h2 class=" text-[#01133A] text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight">
+          Power Your Performance
+        </h2>
+        <p class="text-dark-600 mt-4 text-lg md:text-xl">
+          Discover how our premium energy solutions and industry expertise can transform your operations.
+        </p>
+        <div class="mt-6 w-full md:w-auto flex justify-center md:justify-end">
+          <LandingLink href="/contact-us" styleName="gradient">Contact Us</LandingLink>
+        </div>
+      </div>
     </div>
   </div>
 </template>

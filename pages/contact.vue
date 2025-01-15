@@ -1,6 +1,6 @@
-<script setup>
+<script setup lang="ts">
 definePageMeta({
-  layout: "landing",
+  layout: "landing"
 });
 </script>
 
@@ -45,3 +45,5 @@ definePageMeta({
     </div>
   </LandingContainer>
 </template>
+
+

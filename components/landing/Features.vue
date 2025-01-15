@@ -1,66 +1,103 @@
-<script setup>
-const features = [
-  {
-    title: "Bring Your Own Framework",
-    description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
-  },
-  {
-    title: "100% Static HTML, No JS",
-    description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
-  },
-  {
-    title: "On-Demand Components",
-    description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
-  },
-  {
-    title: "Broad Integration",
-    description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
-  },
-];
-</script>
-
 <template>
-  <div class="mt-16 md:mt-0">
-    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
-    </h2>
-    <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
-    </p>
-  </div>
-
-  <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
-    <div v-for="item of features" class="flex gap-4 items-start">
-      <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
-        <Icon class="text-white" :name="item.icon" />
-      </div>
-      <div>
-        <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-        <p class="text-slate-500 mt-2 leading-relaxed">
-          {{ item.description }}
+  <div class="relative w-full py-8 sm:py-16 md:py-16 lg:py-16">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative z-10 text-center">
+        <h2 class="text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight mt-4 sm:mt-8">
+          Our Solutions
+        </h2>
+        <p class="text-base md:text-lg mt-3 md:mt-4 text-slate-600 max-w-3xl mx-auto">
+          We provide expert services across the oil and gas industry, combining local knowledge with international best
+          practices to deliver reliable results
         </p>
       </div>
     </div>
   </div>
+
+  <div class="flex justify-center w-full px-4">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-4 sm:mt-6 md:mt-8 gap-8 sm:gap-12 md:gap-16 max-w-7xl">
+      <div v-for="item of features" :key="item.title" class="flex flex-col items-center">
+        <a :href="item.href" class="group text-center w-full">
+          <div class="mb-6 flex justify-center">
+            <img :src="item.icon" :alt="item.title" class="w-32 h-32 transition-transform group-hover:scale-110">
+          </div>
+          <div class="text-center">
+            <h3 class="font-semibold text-lg">{{ item.title }}</h3>
+            <p class="text-slate-700 mt-2 leading-relaxed mx-auto max-w-sm">
+              {{ item.description }}
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 </template>
+
+<script setup>
+// Import all icons directly
+import careerIcon from '@/assets/icons/Career.svg';
+import contractIcon from '@/assets/icons/contract-management.svg';
+import corrosionIcon from '@/assets/icons/corrosion-mgt.svg';
+import downstreamIcon from '@/assets/icons/downstream6.svg';
+import manpowerIcon from '@/assets/icons/manpower-services.svg';
+import marineIcon from '@/assets/icons/marine-operations.svg';
+import chemicalProcessingIcon from '@/assets/icons/oil-gas-chemical-processing.svg';
+import projectMgtIcon from '@/assets/icons/project-mgt.svg';
+import sustainabilityIcon from '@/assets/icons/sustainability3.svg';
+
+const features = [
+  {
+    title: "Downstream Operations",
+    description: "Managing the supply, trading, and distribution of oil and gas products to ensure efficient delivery to end-users.",
+    icon: downstreamIcon,
+    href: "/downstream-operations"
+  },
+  {
+    title: "Oil & Gas Chemical Processing",
+    description: "Advanced chemical treatment solutions like descalers and corrosion inhibitors that enhance production quality while protecting valuable industrial equipment.",
+    icon: chemicalProcessingIcon,
+    href: "/oil-gas-chemical-processing"
+  },
+  {
+    title: "Manpower Services",
+    description: "Providing a network of skilled personnel, including abseilers, riggers, scaffolders, fitters ansd other technicians and specialists to support energy sector operations.",
+    icon: manpowerIcon,
+    href: "/manpower-services"
+  },
+  {
+    title: "Marine Operations",
+    description: "Supporting offshore activities through expert vessel management, crew provision, and comprehensive marine logistics services.",
+    icon: marineIcon,
+    href: "/marine-operations"
+  },
+  {
+    title: "Project Management",
+    description: "Planning and executing oil and gas projects with precision, ensuring timely completion within budget constraints.",
+    icon: projectMgtIcon,
+    href: "/project-management"
+  },
+  {
+    title: "Corrosion Management",
+    description: "We protect valuable equipment and pipelines from corrosion damage through monitoring and preventive treatments.",
+    icon: corrosionIcon,
+    href: "/corrosion-management"
+  },
+  {
+    title: "Contract Management (Commercials)",
+    description: "Strategic contract services that build lasting business partnerships while ensuring clear terms and fair agreements.",
+    icon: contractIcon,
+    href: "/contract-management"
+  },
+  {
+    title: "Sefa Sustainability",
+    description: "Dedicated environmental solutions helping energy companies achieve greener operations and meet sustainability goals.",
+    icon: sustainabilityIcon,
+    href: "/sustainability"
+  },
+  {
+    title: "Sefa Career",
+    description: "Growing career opportunities in energy, with hands-on experience and continuous professional development programs.",
+    icon: careerIcon,
+    href: "/sustainability"
+  }
+];
+</script>

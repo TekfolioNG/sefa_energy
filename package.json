@@ -10,13 +10,29 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
+    "@iconify-json/mdi": "^1.2.2",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.9.0",
     "nuxt-icon": "^0.6.8",
+    "nuxt-icon-tw": "^1.0.0",
     "postcss": "^8.4.32",
-    "tailwindcss": "^3.4.0",
-    "vue": "^3.4.3",
+    "tailwindcss": "^3.4.17",
+    "vue": "^3.5.13",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@cloudinary-util/url-loader": "^6.0.0",
+    "@cloudinary-util/util": "^4.1.0",
+    "@contentful/rich-text-html-renderer": "^17.0.0",
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@nuxtjs/cloudinary": "^4.0.0",
+    "@unpic/vue": "^0.0.51",
+    "contentful": "^11.4.2",
+    "lucide-vue-next": "^0.469.0"
   }
 }
