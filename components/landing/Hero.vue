@@ -1,9 +1,8 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 mb-20">
     <!-- Hero image -->
-    <img src="assets/img/sefa_hero_image.jpg" alt=""
-      class="absolute inset-0 -z-10 w-full h-full object-cover object-right md:object-center" />
-
+    <img src="assets/img/sefa_hero_image.jpg" alt="Sefa Logo" class="absolute inset-0 -z-10 w-full h-full object-cover"
+      :style="{ objectPosition: 'var(--img-position, 85% center)' }" />
     <!-- Dark overlay -->
     <div class="absolute inset-0 -z-10 bg-[#010103] opacity-80"></div>
 
@@ -23,7 +22,7 @@
     <!-- Content -->
     <div class="w-full pt-48 pb-5">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:mx-0">
+        <div class="mx-auto max-w-2xl lg:mx-0 pl-0 md:pl-0">
           <h3 class="text-sm font-semibold uppercase tracking-wider text-[#81DBFF] mb-4">Who We Are</h3>
           <div class="space-y-1">
             <h2 class="font-montserrat text-4xl font-bold tracking-tight text-white sm:text-6xl mb-4">
@@ -43,4 +42,22 @@
     </div>
   </div>
 </template>
+
+<style>
+:root {
+  --img-position: 85% center;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --img-position: 75% center;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --img-position: center;
+  }
+}
+</style>
 
