@@ -13,8 +13,8 @@
               FIND OUT WHO WE ARE
             </h3>
             <p class="text-gray-300 mb-4">
-              As a global work solutions company, we help guide businesses toward the talent, technology, and services
-              they need to create a better future of work.
+              Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of
+              energy solutions.
             </p>
             <NuxtLink to="/who-we-are"
               class="inline-flex items-center text-[#81DBFF] hover:text-white transition-colors">

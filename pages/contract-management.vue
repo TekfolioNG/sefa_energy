@@ -1,8 +1,7 @@
 <template>
     <LandingContainer>
         <!-- Hero Section with Background Image -->
-        <div
-            class="relative w-screen pt-32 px-16 py-16 sm:py-20 -mt-13 sm:-mt-4 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        <div <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/fuel_attendant.jpg" alt="Industrial facility at night"
@@ -153,7 +152,8 @@
                                     <div>
                                         <span class="font-bold">Transparent Reporting & Communication</span>
                                         <p class="mt-1">We maintain open lines of communication, keeping you informed at
-                                            every stage of the contract process, thereby fostering trust and clarity in all
+                                            every stage of the contract process, thereby fostering trust and clarity in
+                                            all
                                             dealings.</p>
                                     </div>
                                 </li>

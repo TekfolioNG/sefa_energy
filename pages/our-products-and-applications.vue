@@ -1,8 +1,7 @@
 <template>
     <LandingContainer>
         <!-- Hero Section with Background Image -->
-        <div
-            class="relative w-screen pt-32 px-16 py-16 sm:py-20 -mt-13 sm:-mt-4 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/our_products_applications_sefa.jpg" alt="Industrial facility at night"
                     class="w-full h-full object-cover brightness-75" />

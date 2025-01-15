@@ -1,8 +1,7 @@
 <template>
     <LandingContainer>
         <!-- Hero Section with Background Image -->
-        <div
-            class="relative w-screen pt-32 px-16 py-16 sm:py-20 -mt-13 sm:-mt-4 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/sefa_about_us_hero_image.jpg" alt="Industrial facility at night"
@@ -32,7 +31,8 @@
             <!-- Main Description -->
             <div class="prose prose-lg max-w-none">
                 <p class="text-gray-700 leading-relaxed mb-8">
-                    Sefa Energy specializes in supply, engineering, production chemicals, and environmental management.
+                    Sefa Energy specializes in supply, engineering, production chemicals, and environmental management
+                    of energy solutions.
                     We’re dedicated to sustainable practices and operational excellence, delivering value and innovation
                     that empower communities and partners globally.
                 </p>
