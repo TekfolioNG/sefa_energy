@@ -97,7 +97,7 @@ const features = [
     title: "Sefa Career",
     description: "Growing career opportunities in energy, with hands-on experience and continuous professional development programs.",
     icon: careerIcon,
-    href: "/sustainability"
+    href: "/careers"
   }
 ];
 </script>

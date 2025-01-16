@@ -8,7 +8,9 @@
             </div>
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
                 <div class="max-w-7xl mx-auto w-full mt-16">
-                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4">
+                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4"
+                        style="background: rgba(0, 0, 0, 0.25); padding: 10px; border-radius: 5px; display: inline-block;">
+                        
                         Our Products
                     </h2>
                     <p class="mt-4 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
