@@ -50,7 +50,7 @@
 
 @media (min-width: 640px) {
   :root {
-    --img-position: 75% center;
+    --img-position: 85% center;
   }
 }
 

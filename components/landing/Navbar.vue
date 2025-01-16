@@ -1,18 +1,14 @@
 <template>
-  <header class="fixed w-screen transition-transform duration-300 bg-black bg-opacity-75 z-50"
+  <header class="fixed w-full transition-transform duration-300 bg-black bg-opacity-75 z-50"
     :class="[isNavbarVisible ? 'translate-y-0' : '-translate-y-full']">
     <div class="relative w-screen translate-x-[-5%] sm:translate-x-[-2.8%]">
-      
-    <nav class="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <!-- Logo Section -->
+      <nav class="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex flex-shrink-0 lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Sefa Energy</span>
             <img class="h-14 w-auto" src="assets/img/Sefa_logo_trans2.png" alt="Sefa Energy Logo" />
           </a>
         </div>
-
-        <!-- Mobile Menu Button -->
         <div class="flex lg:hidden">
           <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             @click="mobileMenuOpen = true">
@@ -20,8 +16,6 @@
             <Bars3Icon class="size-6" aria-hidden="true" />
           </button>
         </div>
-
-        <!-- Desktop Navigation -->
         <PopoverGroup class="hidden lg:flex lg:gap-x-12">
           <a href="/who-we-are" class="text-sm/6 font-semibold text-white hover:text-[#81DBFF]">Who we are</a>
 
@@ -73,7 +67,6 @@
                     </div>
                   </div>
                 </div>
-
               </PopoverPanel>
             </transition>
           </Popover>
@@ -84,20 +77,21 @@
           <a href="/newsroom" class="text-sm/6 font-semibold text-white hover:text-[#81DBFF]">Newsroom</a>
           <a href="/careers" class="text-sm/6 font-semibold text-white hover:text-[#81DBFF]">Careers</a>
         </PopoverGroup>
-
-        <!-- Desktop Contact Button -->
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="/contact-us"
             class="text-sm/6 font-semibold text-white border border-[#81DBFF] px-4 py-2 rounded-md hover:text-[#81DBFF]">CONTACT</a>
         </div>
       </nav>
 
-      <!-- Mobile Menu Dialog -->
       <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-10" />
         <DialogPanel
           class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div class="flex items-center justify-between">
+          <div class="flex items-left justify-between">
+            <a href="/" class="-m-1.5 p-1.5">
+              <span class="sr-only">Sefa Energy</span>
+              <img class="h-14 w-auto" src="assets/img/Sefa_logo_trans2.png" alt="Sefa Energy Logo" />
+            </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>
               <XMarkIcon class="size-6" aria-hidden="true" />
@@ -260,21 +254,22 @@ onUnmounted(() => {
 </script>
 
 <style>
-
+/* Add some padding to the top of your main content to account for the fixed navbar */
 main {
   padding-top: 88px;
+
 }
 
-header {
+.navbar {
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
+  /* Prevent horizontal scrolling */
+  display: flex;
+  /* or grid, depending on your design */
+  justify-content: space-between;
+  /* Adjust alignment */
 }
 
-@media (max-width: 640px) {
-  nav {
-    width: calc(100% + 2rem);
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 </style>
