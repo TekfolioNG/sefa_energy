@@ -92,7 +92,7 @@
             <div class="flex items-start space-x-3">
               <Mail class="w-6 h-6 text-[#81DBFF] flex-shrink-0 mt-1" stroke-width="1" />
               <div class="text-gray-300">
-                <p>enquiry@sefaenergy.com</p>
+                <p>info@sefaenergy.com</p>
                 <p>support@sefaenergy.com</p>
               </div>
             </div>

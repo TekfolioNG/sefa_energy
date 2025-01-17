@@ -69,7 +69,7 @@
 </template>
 
 <script setup>
-const formAccessKey = ref('YOUR_ACCESS_KEY_HERE')
+const formAccessKey = ref('0f124479-05cd-4fcf-a66e-67276a365cbb')
 const isSubmitting = ref(false)
 
 const formData = ref({

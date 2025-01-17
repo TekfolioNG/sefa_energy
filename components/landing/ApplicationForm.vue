@@ -80,7 +80,7 @@
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
 
-const accessKey = 'YOUR-ACCESS-KEY'
+const accessKey = '1161923c-b056-4001-9cee-e5c64d1d9c15'
 
 const formData = reactive({
     name: '',
