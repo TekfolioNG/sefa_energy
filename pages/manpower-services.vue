@@ -5,14 +5,14 @@
             <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/fuel_attendant.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover brightness-75" />
+                    class="w-full h-full object-cover brightness-[0.50]" />
             </div>
 
             <!-- Hero Content -->
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
                 <div class="max-w-7xl mx-auto w-full mt-16">
                     <div
-                        style="background: rgba(0, 0, 0, 0.25); padding: 10px; border-radius: 5px; display: inline-block;">
+                        style="padding: 10px; border-radius: 5px; display: inline-block;">
                         <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4">
                             Manpower services
                         </h2>
@@ -167,4 +167,23 @@
 definePageMeta({
     layout: "landing"
 });
+
+useSeoMeta({
+    title: 'Sefa Energy Ltd | Making Energy Work For You',
+    ogTitle: 'Sefa Energy Ltd | Making Energy Work For You',
+    description: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+    ogDescription: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+
+    twitterCard: 'summary_large_image',
+    twitterTitle: 'Sefa Energy Ltd | Making Energy Work For You',
+    twitterDescription: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+
+    ogImage: {
+        url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sefa Energy Ltd - Energy Solutions'
+    },
+    twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
+})
 </script>

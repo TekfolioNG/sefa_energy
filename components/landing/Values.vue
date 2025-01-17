@@ -11,7 +11,7 @@
                     help companies work safely and protect their equipment.
                 </p>
 
-                <NuxtLink to="/our-products"
+                <NuxtLink to="/our-products-and-applications"
                     class="group bg-[#81DBFF] hover:bg-[#6ac5e8] text-black px-8 py-3 rounded-none transition-all duration-300 inline-flex items-center space-x-2 min-w-[200px] justify-center">
                     <span class="font-medium text-sm">Our Products</span>
                     <svg xmlns="http://www.w3.org/2000/svg"

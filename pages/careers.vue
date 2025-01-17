@@ -4,16 +4,16 @@
         <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/career_sefa.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover brightness-75" />
+                    class="w-full h-full object-cover brightness-[0.50]" />
             </div>
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8"
-                style="background: rgba(0, 0, 0, 0.25); padding: 10px; border-radius: 5px; display: inline-block;">
+                style="padding: 10px; border-radius: 5px; display: inline-block;">
                 <div class="max-w-7xl mx-auto w-full mt-16">
                     <p class="mt-4 text-pretty text-sm font-small text-white sm:text-base">
                         CAREER OPPORTUNITIES
                     </p>
                     <h2 class="text-pretty text-2xl font-light tracking-tight text-white sm:text-5xl mb-4"
-                        style="line-height: 1.25; background: rgba(0, 0, 0, 0.25); padding: 10px; border-radius: 5px; display: inline-block;">
+                        style="line-height: 1.25; padding: 10px; border-radius: 5px; display: inline-block;">
                         Join a team where your skills and <br>passion can make the world better</br>
                     </h2>
 
@@ -86,4 +86,23 @@
 definePageMeta({
     layout: "landing"
 });
+
+useSeoMeta({
+    title: 'Sefa Energy Ltd | Making Energy Work For You',
+    ogTitle: 'Sefa Energy Ltd | Making Energy Work For You',
+    description: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+    ogDescription: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+
+    twitterCard: 'summary_large_image',
+    twitterTitle: 'Sefa Energy Ltd | Making Energy Work For You',
+    twitterDescription: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+
+    ogImage: {
+        url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sefa Energy Ltd - Energy Solutions'
+    },
+    twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
+})
 </script>

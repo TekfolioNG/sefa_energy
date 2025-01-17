@@ -11,10 +11,10 @@
             <!-- Hero Content -->
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
                 <div class="max-w-7xl mx-auto w-full mt-16">
-                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4">
+                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-2">
                         Who we are
                     </h2>
-                    <p class="mt-4 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
+                    <p class="mt-0 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
                         We create innovative solutions that power progress while advancing a greener future.
                     </p>
                 </div>

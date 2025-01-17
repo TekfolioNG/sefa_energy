@@ -199,6 +199,7 @@ const services = [
   {
     name: 'Contract Management (Commercials)',
     description: 'Full lifecycle management of contract execution for clients in the oil and gas sector.',
+    href: '/contract-management', 
     icon: WrenchScrewdriverIcon
   },
   {

@@ -4,16 +4,16 @@
         <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/sustainability_compliance.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover brightness-75" />
+                    class="w-full h-full object-cover brightness-[0.50]" />
             </div>
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
                 <div class="max-w-7xl mx-auto w-full mt-16">
-                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4"
-                        style="background: rgba(0, 0, 0, 0.25); padding: 10px; border-radius: 5px; display: inline-block;">
-                        
+                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-2"
+                        style="padding: 10px; border-radius: 5px; display: inline-block;">
+
                         Energizing a greener future
                     </h2>
-                    <p class="mt-4 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
+                    <p class="mt-0 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
                         Sefa is committed to industry-leading sustainability practices with full GHG and ESG compliance.
                     </p>
                 </div>

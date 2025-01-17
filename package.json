@@ -30,9 +30,13 @@
     "@contentful/rich-text-html-renderer": "^17.0.0",
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.2.0",
+    "@lottiefiles/vue-lottie-player": "^1.1.0",
     "@nuxtjs/cloudinary": "^4.0.0",
     "@unpic/vue": "^0.0.51",
     "contentful": "^11.4.2",
-    "lucide-vue-next": "^0.469.0"
+    "lottie-web": "^5.12.2",
+    "lucide-vue-next": "^0.469.0",
+    "vue-lottie-player": "^0.1.9",
+    "vue3-lottie": "^3.3.1"
   }
 }
