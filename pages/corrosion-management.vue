@@ -180,12 +180,12 @@ definePageMeta({
 useSeoMeta({
     title: 'Sefa Energy Ltd',
     ogTitle: 'Sefa Energy Ltd',
-    description: 'Making Energy Work For You. For Tomorrow',
-    ogDescription: 'Making Energy Work For You. For Tomorrow',
+    description: 'Making Energy Work For You.',
+    ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
     twitterTitle: 'Sefa Energy Ltd',
-    twitterDescription: 'Making Energy Work For You. For Tomorrow',
+    twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
