@@ -179,14 +179,14 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd | Making Energy Work For You',
-    ogTitle: 'Sefa Energy Ltd | Making Energy Work For You',
-    description: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
-    ogDescription: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+    title: 'Sefa Energy Ltd',
+    ogTitle: 'Sefa Energy Ltd',
+    description: 'Making Energy Work For You. For Tomorrow',
+    ogDescription: 'Making Energy Work For You. For Tomorrow',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd | Making Energy Work For You',
-    twitterDescription: 'Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of energy solutions.',
+    twitterTitle: 'Sefa Energy Ltd',
+    twitterDescription: 'Making Energy Work For You. For Tomorrow',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
