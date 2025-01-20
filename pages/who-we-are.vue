@@ -1,20 +1,24 @@
 <template>
     <LandingContainer>
         <!-- Hero Section with Background Image -->
-        <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        <div
+            class="relative w-screen min-h-[80vh] px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
-                <img src="@/assets/img/sefa_about_us_hero_image.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover brightness-75" />
+                <img src="@/assets/img/who-we-are-sefa-sefa.jpg" alt="Industrial facility at night"
+                    class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-black/50"></div>
+
             </div>
 
+
             <!-- Hero Content -->
-            <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
+            <div class="relative h-full flex flex-col justify-center px-1 sm:px-2 lg:px-2 mt-80 sm:mt-32">
                 <div class="max-w-7xl mx-auto w-full mt-16">
                     <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-2">
                         Who we are
                     </h2>
-                    <p class="mt-0 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
+                    <p class="mt-0 text-pretty text-base font-medium text-white sm:text-lg/8">
                         We create innovative solutions that power progress while advancing a greener future.
                     </p>
                 </div>
@@ -42,7 +46,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/sefa_vision.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/our_vision.png" alt="Sefa Energy Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
@@ -63,7 +67,8 @@
                                 </div>
 
                                 <!-- Vision Row -->
-                                <div class="bg-black/85 p-6 lg:p-8 flex flex-col justify-center h-[250px] lg:h-[268px]">
+                                <div
+                                    class="bg-gradient-to-r from-[#7e1414] to-[#7e1414] p-6 lg:p-8 flex flex-col justify-center h-[250px] lg:h-[268px]">
                                     <h2
                                         class="text-pretty text-3xl lg:text-4xl font-light tracking-tight text-white sm:text-6xl mb-4">
                                         Our vision
@@ -77,35 +82,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative w-full py-8 sm:py-16 md:py-16 lg:py-16">
-                    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                <div class="relative w-full py-4 sm:py-8 md:py-8 lg:py-8">
+                    <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-6">
                         <div class="relative z-10">
                             <h2
-                                class="text-left text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight mt-4 sm:mt-8">
+                                class="text-left text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight mt-1 sm:mt-2 mb-1 sm:mb-2">
                                 Our Values
                             </h2>
 
-                            <div class="w-full py-12 space-y-16">
+                            <div class="w-full py-6 space-y-8 sm:space-y-12">
                                 <div v-for="value in values" :key="value.title" :class="[
-                                    'flex flex-col items-center gap-8 md:gap-16',
+                                    'flex flex-col items-center gap-4 md:gap-8',
                                     value.isReversed ? 'md:flex-row-reverse' : 'md:flex-row'
                                 ]">
-                                    <!-- Icon Section - Doubled size -->
+                                    <!-- Icon Section - Optimized size -->
                                     <div class="w-full md:w-1/2 flex justify-center">
-                                        <img :src="value.icon" :alt="value.title" class="w-64 h-64 object-contain" />
+                                        <img :src="value.icon" :alt="value.title"
+                                            class="w-48 h-48 sm:w-64 sm:h-64 object-contain" />
                                     </div>
 
-                                    <!-- Content Section - Adjusted column width and title size -->
+                                    <!-- Content Section - Optimized spacing -->
                                     <div class="w-full md:w-1/2">
-                                        <h3 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900" style="
-  background: linear-gradient(to right, #02194F, #01133A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;">
+                                        <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 text-gray-900" style="
+                            background: linear-gradient(to right, #02194F, #01133A);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;">
                                             {{ value.title }}
                                         </h3>
-                                        <!-- Added max-width to create single column effect for description -->
-                                        <p class="text-gray-900 leading-relaxed max-w-md"
-                                            style="font-size: 1.125rem; color: #000000;">
+                                        <p class="text-gray-900 leading-relaxed max-w-md text-base sm:text-lg"
+                                            style="color: #000000;">
                                             {{ value.description }}
                                         </p>
                                     </div>

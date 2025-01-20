@@ -1,11 +1,11 @@
 <template>
-  <div class="relative w-full py-8 sm:py-16 md:py-16 lg:py-16">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div class="relative w-full py-8 sm:py-12 lg:py-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="relative z-10 text-center">
-        <h2 class="text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight mt-4 sm:mt-8">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
           Our Solutions
         </h2>
-        <p class="text-base md:text-lg mt-3 md:mt-4 text-slate-600 max-w-3xl mx-auto">
+        <p class="text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 text-slate-600 max-w-3xl mx-auto">
           We provide expert services across the oil and gas industry, combining local knowledge with international best
           practices to deliver reliable results
         </p>
@@ -13,16 +13,17 @@
     </div>
   </div>
 
-  <div class="flex justify-center w-full px-4">
-    <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-4 sm:mt-6 md:mt-8 gap-8 sm:gap-12 md:gap-16 max-w-7xl">
+  <div class="px-4 sm:px-6 lg:px-8 w-full flex justify-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 max-w-7xl">
       <div v-for="item of features" :key="item.title" class="flex flex-col items-center">
         <a :href="item.href" class="group text-center w-full">
-          <div class="mb-6 flex justify-center">
-            <img :src="item.icon" :alt="item.title" class="w-32 h-32 transition-transform group-hover:scale-110">
+          <div class="mb-4 sm:mb-6 flex justify-center">
+            <img :src="item.icon" :alt="item.title"
+              class="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 transition-transform duration-300 group-hover:scale-110">
           </div>
           <div class="text-center">
-            <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-            <p class="text-slate-700 mt-2 leading-relaxed mx-auto max-w-sm">
+            <h3 class="font-semibold text-base sm:text-lg">{{ item.title }}</h3>
+            <p class="text-sm sm:text-base text-slate-700 mt-2 leading-relaxed mx-auto max-w-sm">
               {{ item.description }}
             </p>
           </div>
@@ -55,7 +56,7 @@ const features = [
     title: "Oil & Gas Chemical Processing",
     description: "Advanced chemical treatment solutions like descalers and corrosion inhibitors that enhance production quality while protecting valuable industrial equipment.",
     icon: chemicalProcessingIcon,
-    href: "/oil-gas-chemical-processing"
+    href: "/oil-and-gas-chemical-processing"
   },
   {
     title: "Manpower Services",

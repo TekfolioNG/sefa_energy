@@ -1,10 +1,9 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 mb-20">
     <!-- Hero image -->
-    <img src="assets/img/sefa_hero_image.jpg" alt="Sefa Logo" class="absolute inset-0 -z-10 w-full h-full object-cover"
+    <img src="assets/img/sefa_oil_and_gas4.jpg" alt="Sefa Logo"
+      class="absolute inset-0 -z-10 w-full h-full object-cover"
       :style="{ objectPosition: 'var(--img-position, 85% center)' }" />
-    <!-- Dark overlay -->
-    <div class="absolute inset-0 -z-10 bg-[#010103] opacity-80"></div>
 
     <!-- Gradient effects -->
     <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -23,20 +22,10 @@
     <div class="w-full pt-48 pb-5">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0 pl-0 md:pl-0">
-          <h3 class="text-sm font-semibold uppercase tracking-wider text-[#81DBFF] mb-4">Who We Are</h3>
           <div class="space-y-1">
-            <h2 class="font-montserrat text-4xl font-bold tracking-tight text-white sm:text-6xl mb-4">
-              Making Energy Work.
-            </h2>
-            <h2 class="font-montserrat text-3xl font-bold tracking-tight text-white sm:text-5xl">
-              For You. For Tomorrow.
-            </h2>
 
           </div>
-          <p class="mt-8 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
-            We bring together the right people, tools, and solutions to deliver quality products to businesses and
-            consumers while helping oil and gas companies optimize operations.
-          </p>
+
         </div>
       </div>
     </div>

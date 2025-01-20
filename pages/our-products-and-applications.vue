@@ -1,25 +1,31 @@
 <template>
     <LandingContainer>
         <!-- Hero Section with Background Image -->
-        <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        <div
+            class="relative w-screen min-h-[90vh] px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
+            <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
                 <img src="@/assets/img/our_products_applications_sefa.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover brightness-[0.50]" />
-            </div>
-            <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
-                <div class="max-w-7xl mx-auto w-full mt-16">
-                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4"
-                        style="padding: 10px; border-radius: 5px; display: inline-block;">
+                    class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-black/50"></div>
 
-                        Our Products
+            </div>
+
+
+            <!-- Hero Content -->
+            <div class="relative h-full flex flex-col justify-center px-1 sm:px-2 lg:px-2 mt-80 sm:mt-40">
+                <div class="max-w-7xl mx-auto w-full mt-16">
+                    <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-2">
+                        Our products
                     </h2>
-                    <p class="mt-0 text-pretty text-base font-medium text-gray-300 sm:text-lg/8">
+                    <p class="mt-0 text-pretty text-base font-medium text-white sm:text-lg/8">
                         Comprehensive solutions for the oil & gas industry, engineered to enhance performance and
                         efficiency.
                     </p>
                 </div>
             </div>
         </div>
+
 
         <!-- Main Content -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">

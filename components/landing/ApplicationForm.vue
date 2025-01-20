@@ -1,6 +1,6 @@
-// components/CareerApplicationForm.vue
 <template>
-    <form @submit.prevent="handleSubmit" class="space-y-6 bg-gray-200 p-6 rounded-lg shadow-sm">
+    <form @submit.prevent="handleSubmit" class="space-y-6 bg-gray-200 p-6 rounded-lg shadow-sm"
+        enctype="multipart/form-data">
         <input type="hidden" name="access_key" :value="accessKey">
         <input type="hidden" name="subject" value="New Job Application - Sefa Energy">
         <input type="hidden" name="from_name" value="Sefa Energy Careers">
@@ -32,13 +32,32 @@
             <p v-if="errors.phone" class="mt-1 text-sm text-red-600">{{ errors.phone }}</p>
         </div>
 
-        <!-- Position Field -->
+        <!-- Position Field (Dropdown) -->
         <div>
             <label for="position" class="block text-sm font-medium text-gray-700">Position of Interest</label>
-            <input type="text" id="position" v-model="formData.position" :class="{ 'border-red-500': errors.position }"
+            <select id="position" v-model="formData.position" :class="{ 'border-red-500': errors.position }"
                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#0E0147] focus:ring-[#0E0147]"
-                placeholder="Position of Interest" required>
+                required>
+                <option value="" disabled selected>Select a position</option>
+                <option v-for="position in positions" :key="position" :value="position">
+                    {{ position }}
+                </option>
+            </select>
             <p v-if="errors.position" class="mt-1 text-sm text-red-600">{{ errors.position }}</p>
+        </div>
+
+        <!-- Resume Upload Field -->
+        <div>
+            <label for="resume" class="block text-sm font-medium text-gray-700">CV/Resume</label>
+            <input type="file" id="resume" @change="handleFileUpload" :class="{ 'border-red-500': errors.resume }"
+                class="mt-1 block w-full text-sm text-gray-500
+                    file:mr-4 file:py-2 file:px-4
+                    file:rounded-md file:border-0
+                    file:text-sm file:font-semibold
+                    file:bg-[#0E0147] file:text-white
+                    hover:file:bg-[#1a0275]" accept=".pdf,.doc,.docx" required>
+            <p class="mt-1 text-sm text-gray-500">Accepted formats: PDF, DOC, DOCX (Max 5MB)</p>
+            <p v-if="errors.resume" class="mt-1 text-sm text-red-600">{{ errors.resume }}</p>
         </div>
 
         <!-- Message Field -->
@@ -82,12 +101,19 @@ import { reactive, ref } from 'vue'
 
 const accessKey = '1161923c-b056-4001-9cee-e5c64d1d9c15'
 
+const positions = [
+    'Marketing Manager',
+    'Receptionist',
+    'Business Developer',    
+]
+
 const formData = reactive({
     name: '',
     email: '',
     phone: '',
     position: '',
-    message: ''
+    message: '',
+    resume: null as File | null
 })
 
 const errors = reactive({
@@ -95,11 +121,27 @@ const errors = reactive({
     email: '',
     phone: '',
     position: '',
-    message: ''
+    message: '',
+    resume: ''
 })
 
 const isSubmitting = ref(false)
 const submitStatus = ref<{ type: 'success' | 'error', message: string } | null>(null)
+
+const handleFileUpload = (event: Event) => {
+    const input = event.target as HTMLInputElement
+    if (input.files && input.files[0]) {
+        const file = input.files[0]
+        // Check file size (5MB limit)
+        if (file.size > 5 * 1024 * 1024) {
+            errors.resume = 'File size must be less than 5MB'
+            input.value = ''
+            return
+        }
+        formData.resume = file
+        errors.resume = ''
+    }
+}
 
 const validateForm = () => {
     let isValid = true
@@ -128,8 +170,14 @@ const validateForm = () => {
     }
 
     // Position validation
-    if (formData.position.length < 2) {
-        errors.position = 'Please enter a valid position'
+    if (!formData.position) {
+        errors.position = 'Please select a position'
+        isValid = false
+    }
+
+    // Resume validation
+    if (!formData.resume) {
+        errors.resume = 'Please upload your CV/Resume'
         isValid = false
     }
 
@@ -149,16 +197,20 @@ const handleSubmit = async () => {
     submitStatus.value = null
 
     try {
+        const formDataToSend = new FormData()
+        formDataToSend.append('access_key', accessKey)
+        formDataToSend.append('name', formData.name)
+        formDataToSend.append('email', formData.email)
+        formDataToSend.append('phone', formData.phone)
+        formDataToSend.append('position', formData.position)
+        formDataToSend.append('message', formData.message)
+        if (formData.resume) {
+            formDataToSend.append('resume', formData.resume)
+        }
+
         const response = await fetch('https://api.web3forms.com/submit', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
-            },
-            body: JSON.stringify({
-                access_key: accessKey,
-                ...formData
-            })
+            body: formDataToSend
         })
 
         const data = await response.json()
@@ -169,7 +221,9 @@ const handleSubmit = async () => {
                 message: 'Application submitted successfully! We will contact you soon.'
             }
             // Reset form
-            Object.keys(formData).forEach(key => formData[key as keyof typeof formData] = '')
+            Object.keys(formData).forEach(key => formData[key as keyof typeof formData] = key === 'resume' ? null : '')
+            const fileInput = document.getElementById('resume') as HTMLInputElement
+            if (fileInput) fileInput.value = ''
         } else {
             throw new Error('Submission failed')
         }

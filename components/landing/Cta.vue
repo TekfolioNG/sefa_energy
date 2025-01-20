@@ -7,14 +7,14 @@
       </div>
 
       <!-- Content -->
-      <div class="w-full md:w-1/2 flex flex-col items-start md:items-end text-left md:text-right">
-        <h2 class=" text-[#01133A] text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight">
-          Power Your Performance
+      <div class="w-full md:w-1/2 flex flex-col items-center md:items-end text-center md:text-right">
+        <h2 class="text-[#D10101] text-4xl md:text-4xl lg:text-5xl font-extrabold tracking-tight lg:tracking-tight">
+          Fuel Your Performance
         </h2>
         <p class="text-dark-600 mt-4 text-lg md:text-xl">
           Discover how our premium energy solutions and industry expertise can transform your operations.
         </p>
-        <div class="mt-6 w-full md:w-auto flex justify-center md:justify-end">
+        <div class="mt-6 flex justify-center md:justify-end w-full">
           <LandingLink href="/contact-us" styleName="gradient">Contact Us</LandingLink>
         </div>
       </div>

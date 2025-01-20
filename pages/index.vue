@@ -26,7 +26,9 @@ useSeoMeta({
 <template>
   <LandingContainer>
     <LandingHero />
-    <LandingValues />
+    <div class="mt-80 sm:mt-[30rem] md:mt-[28rem]">
+      <LandingValues />
+    </div>
     <LandingFeatures />
     <LandingProducts />
     <LandingCta />

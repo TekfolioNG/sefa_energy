@@ -23,7 +23,7 @@ const styles = {
   primary: "bg-black text-white hover:bg-gray-800  border-2 border-transparent",
   inverted: "bg-white text-black border-2 border-transparent",
   muted: "bg-gray-100 hover:bg-gray-200 border-2 border-transparent",
-  gradient: "bg-gradient-to-r from-[#02194F] to-[#01133A] text-white hover:opacity-90 border-2 border-transparent",
+  gradient: "bg-gradient-to-r from-[#D10101] to-[#D10101] text-white hover:opacity-90 border-2 border-transparent",
 };
 </script>
 

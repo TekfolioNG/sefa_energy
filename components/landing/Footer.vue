@@ -134,7 +134,7 @@ const services = [
   { name: 'Downstream Operations', href: '/downstream-operations' },
   { name: 'Manpower Services', href: '/manpower-services' },
   { name: 'Project Management', href: '/project-management' },
-  { name: 'Contract Managment (Commercials)', href: '/contract-management' },
+  { name: 'Contract Management (Commercials)', href: '/contract-management' },
   { name: 'Oil & Gas Chemical Processing', href: '/oil-and-gas-chemical-processing' },
   { name: 'Marine Operations', href: '/marine-operations' },
   { name: 'Corrosion Management', href: '/corrosion-management' },

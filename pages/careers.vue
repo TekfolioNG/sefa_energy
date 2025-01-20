@@ -1,15 +1,19 @@
 <template>
     <LandingContainer>
-        <!-- Hero Section remains the same -->
-        <div class="relative w-screen px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        <!-- Hero Section with Background Image -->
+        <div
+            class="relative w-screen min-h-[90vh] px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
+            <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
-                <img src="@/assets/img/career_sefa.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover brightness-[0.50]" />
+                <img src="@/assets/img/sefa_career5.jpg" alt="Industrial facility at night"
+                    class="w-full h-full object-cover" />
+                <!-- Dark overlay -->
+                <div class="absolute inset-0 bg-black/50"></div>
             </div>
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8"
                 style="padding: 10px; border-radius: 5px; display: inline-block;">
                 <div class="max-w-7xl mx-auto w-full mt-16">
-                    <p class="mt-4 text-pretty text-sm font-small text-white sm:text-base">
+                    <p class="px-4 mt-80 sm:mt-40 text-pretty text-sm font-small text-white sm:text-base">
                         CAREER OPPORTUNITIES
                     </p>
                     <h2 class="text-pretty text-2xl font-light tracking-tight text-white sm:text-5xl mb-4"
@@ -73,9 +77,9 @@
                 </div>
 
                 <!-- Image Section on Right -->
-                <div class="w-full md:w-2/5 flex justify-center items-start mt-16">
+                <div class="w-full md:w-2/5 flex justify-center items-start mt-24">
                     <img src="@/assets/img/career_sefa3.png" alt="sefa_hiring"
-                        class="w-150 h-150 object-contain mt-4 md:mt-0" />
+                        class="w-250 h-250 object-contain mt-0 md:mt-4" />
                 </div>
             </div>
         </div>

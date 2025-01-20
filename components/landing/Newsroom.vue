@@ -1,12 +1,12 @@
 <template>
     <div
-        class="relative bg-gradient-to-r from-[#81DBFF] to-[#81DBFF] w-screen py-12 sm:py-16 mt-4 sm:mt-5 translate-x-[-5%] sm:translate-x-[-2.8%]">
+        class="relative w-screen py-12 sm:py-16 mt-4 sm:mt-5 translate-x-[-5%] sm:translate-x-[-2.8%]">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 mb-8">
-                <h2 class="text-pretty text-4xl font-light tracking-tight text-[#01133A] sm:text-5xl">THE FUTURE OF
+                <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-5xl">THE FUTURE OF
                     ENERGY
                 </h2>
-                <p class="mt-2 text-lg/8 text-black">Industry Trends & Insights from Our Newsroom</p>
+                <p class="mt-2 text-lg/8 text-white">Industry Trends & Insights from Our Newsroom</p>
             </div>
             <div
                 class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -14,7 +14,7 @@
                     class="flex max-w-xl flex-col items-start justify-between">
                     <img :src="post.image" :alt="post.imageAlt" class="rounded-lg w-full">
                     <div class="mt-4">
-                        <time :datetime="post.datetime" class="text-sm font-medium text-[#01133A]">{{ post.date
+                        <time :datetime="post.datetime" class="text-sm font-medium text-white">{{ post.date
                             }}</time>
                     </div>
                     <div class="group relative flex-grow">
@@ -26,7 +26,7 @@
                         </h3>
                         <p class="mt-3 line-clamp-3 text-sm/6 text-dark-600">{{ post.description }}</p>
                         <a :href="post.href"
-                            class="inline-flex items-center mt-4 text-sm font-medium text-[#01133A] hover:text-gray-600">
+                            class="inline-flex items-center mt-4 text-sm font-medium text-[white] hover:text-white-600">
                             Read more
                             <svg class="ml-1 w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd"
