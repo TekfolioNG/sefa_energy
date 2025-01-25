@@ -97,8 +97,8 @@
                                     </svg>
                                     <div>
                                         <span class="font-bold">Comprehensive Assessments</span>
-                                        <p class="mt-1">We conduct detailed evaluations of pipelines, tanks, and
-                                            equipment to identify early signs of corrosion, ensuring timely
+                                        <p class="mt-1">We conduct detailed inspection of pipelines, tanks, and
+                                            equipment according to industry standards to identify early signs of corrosion, ensuring timely
                                             intervention.</p>
                                     </div>
                                 </li>

@@ -6,7 +6,7 @@
         <!-- Grid 1: About Us -->
         <div class="space-y-6">
           <NuxtLink to="/">
-            <img src="assets/img/Sefa_logo_trans2.png" alt="Sefa Energy" class="h-14 w-auto" />
+            <img class="h-20 w-auto" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Logo" />
           </NuxtLink>
           <div>
             <h3 class="text-lg font-bold mb-2 pb-2 border-b border-[#81DBFF]">

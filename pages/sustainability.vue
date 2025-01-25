@@ -5,9 +5,9 @@
             class="relative w-screen min-h-[90vh] px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
-                <img src="@/assets/img/green_sefa.png" alt="Industrial facility at night"
+                <img src="@/assets/img/sefa_sustainability.jpg" alt="Industrial facility at night"
                     class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-black/50"></div>
+                <div class="absolute inset-0 bg-black/35"></div>
 
             </div>
 
@@ -121,7 +121,7 @@
 
             <!-- Full Width Image Section -->
             <div class="w-full">
-                <img src="@/assets/img/carbon_neutral.jpg" alt="Carbon Neutral"
+                <img src="@/assets/img/sefa_green.jpg" alt="Carbon Neutral"
                     class="w-full h-auto object-cover rounded-lg" />
             </div>
         </div>

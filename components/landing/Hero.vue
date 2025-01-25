@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 mb-20">
     <!-- Hero image -->
-    <img src="assets/img/sefa_oil_and_gas4.jpg" alt="Sefa Logo"
+    <img src="assets/img/sefa_header_image2.jpg" alt="Sefa Logo"
       class="absolute inset-0 -z-10 w-full h-full object-cover"
       :style="{ objectPosition: 'var(--img-position, 85% center)' }" />
 

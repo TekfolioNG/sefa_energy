@@ -8,19 +8,23 @@ export default defineNuxtConfig({
       ],
     }
   },
+
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   modules: [
     "nuxt-icon-tw",
     "@nuxtjs/google-fonts",
     "@nuxt/image",
   ],
+
   googleFonts: {
     families: {
       Montserrat: {
@@ -38,21 +42,25 @@ export default defineNuxtConfig({
     preconnect: true,
     useStylesheet: true,
   },
+
   image: {
     provider: "cloudinary",
     cloudinary: {
       baseURL: `https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/`,
     },
   },
+
   runtimeConfig: {
     public: {
       contentful: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
         previewToken: process.env.CONTENTFUL_PREVIEW_TOKEN
-      }
+      },
+      newsApiKey: process.env.NEWS_API_KEY
     }
   },
+
   nitro: {
     preset: 'cloudflare',
     prerender: {
@@ -65,6 +73,9 @@ export default defineNuxtConfig({
     payloadExtraction: false,
     inlineSSRStyles: false
   },
+
   // Add this for Cloudflare compatibility
-  ssr: true
+  ssr: true,
+
+  compatibilityDate: "2025-01-25"
 });

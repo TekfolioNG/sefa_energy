@@ -11,8 +11,7 @@
             <!-- Hero Content -->
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8">
                 <div class="max-w-7xl mx-auto w-full mt-16">
-                    <div
-                        style="padding: 10px; border-radius: 5px; display: inline-block;">
+                    <div style="padding: 10px; border-radius: 5px; display: inline-block;">
                         <h2 class="text-pretty text-4xl font-light tracking-tight text-white sm:text-6xl mb-4">
                             Marine operations
                         </h2>
@@ -42,7 +41,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/marine_operations.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/sefa_marine_engineering.jpg" alt="Sefa Energy Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 

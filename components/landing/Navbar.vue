@@ -1,12 +1,12 @@
 <template>
-  <header class="fixed w-full transition-transform duration-300 bg-black bg-opacity-75 z-50"
+  <header class="fixed w-full transition-transform duration-300 bg-black bg-opacity-55 z-50"
     :class="[isNavbarVisible ? 'translate-y-0' : '-translate-y-full']">
     <div class="relative w-screen translate-x-[-5%] sm:translate-x-[-2.8%]">
       <nav class="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex flex-shrink-0 lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Sefa Energy</span>
-            <img class="h-14 w-auto" src="assets/img/Sefa_logo_trans2.png" alt="Sefa Energy Logo" />
+            <img class="h-20 w-auto ml-4" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Logo" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -29,7 +29,7 @@
               enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150"
               leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
               <PopoverPanel
-                class="absolute left-1/2 top-full z-10 mt-3 w-screen max-w-4xl -translate-x-1/2 overflow-hidden rounded-3xl bg-black bg-opacity-75 shadow-lg ring-1 ring-white/5">
+                class="absolute left-1/2 top-full z-10 mt-3 w-screen max-w-4xl -translate-x-1/2 overflow-hidden rounded-3xl bg-black bg-opacity-55 shadow-lg ring-1 ring-white/5">
                 <div class="p-4">
                   <div class="grid grid-cols-2 gap-4">
                     <!-- Left Column -->
@@ -86,11 +86,11 @@
       <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
         <div class="fixed inset-0 z-10" />
         <DialogPanel
-          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 top-32">
           <div class="flex items-left justify-between">
             <a href="/" class="-m-1.5 p-1.5">
               <span class="sr-only">Sefa Energy</span>
-              <img class="h-14 w-auto" src="assets/img/Sefa_logo_trans2.png" alt="Sefa Energy Logo" />
+
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>
@@ -150,7 +150,8 @@
           </div>
         </DialogPanel>
       </Dialog>
-      </div>
+    </div>
+
   </header>
 </template>
 

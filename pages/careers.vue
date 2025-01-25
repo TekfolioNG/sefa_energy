@@ -5,23 +5,22 @@
             class="relative w-screen min-h-[90vh] px-16 py-16 sm:py-20 mt-0 sm:mt-0 translate-x-[-5%] sm:translate-x-[-2.8%]">
             <!-- Background Image Container -->
             <div class="absolute inset-0 w-full h-full">
-                <img src="@/assets/img/sefa_career5.jpg" alt="Industrial facility at night"
-                    class="w-full h-full object-cover" />
+                <img src="@/assets/img/career_sefa.jpg" alt="Industrial facility at night"
+                    class="w-full h-full object-cover object-[-900px] sm:object-center" />
                 <!-- Dark overlay -->
-                <div class="absolute inset-0 bg-black/50"></div>
+                <div class="absolute inset-0 bg-black/35"></div>
             </div>
             <div class="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8"
                 style="padding: 10px; border-radius: 5px; display: inline-block;">
                 <div class="max-w-7xl mx-auto w-full mt-16">
-                    <p class="px-4 mt-80 sm:mt-40 text-pretty text-sm font-small text-white sm:text-base">
+                    <p class="px-4 mt-80 sm:mt-40 text-pretty text-sm font-small text-white sm:text-base"
+            >
                         CAREER OPPORTUNITIES
                     </p>
                     <h2 class="text-pretty text-2xl font-light tracking-tight text-white sm:text-5xl mb-4"
-                        style="line-height: 1.25; padding: 10px; border-radius: 5px; display: inline-block;">
+                        style="line-height: 1.25; padding: 10px; border-radius: 5px; display: inline-block">
                         Join a team where your skills and <br>passion can make the world better</br>
                     </h2>
-
-
                 </div>
             </div>
         </div>

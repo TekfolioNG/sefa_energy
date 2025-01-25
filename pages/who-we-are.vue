@@ -46,7 +46,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/our_vision.png" alt="Sefa Energy Vision"
+                            <img src="assets/img/our_vision_sefa.jpg" alt="Sefa Energy Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
