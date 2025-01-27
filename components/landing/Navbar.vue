@@ -5,8 +5,8 @@
       <nav class="relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex flex-shrink-0 lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
-            <span class="sr-only">Sefa Energy</span>
-            <img class="h-20 w-auto ml-4" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Logo" />
+            <span class="sr-only">Sefa Energy Global</span>
+            <img class="h-20 w-auto ml-4" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Global Logo" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -89,7 +89,7 @@
           class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 top-32">
           <div class="flex items-left justify-between">
             <a href="/" class="-m-1.5 p-1.5">
-              <span class="sr-only">Sefa Energy</span>
+              <span class="sr-only">Sefa Energy Global</span>
 
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
@@ -157,24 +157,24 @@
 
 <script setup>
 import {
-  Dialog,
-  DialogPanel,
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-  PopoverPanel
+    Dialog,
+    DialogPanel,
+    Popover,
+    PopoverButton,
+    PopoverGroup,
+    PopoverPanel
 } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 import {
-  Bars3Icon,
-  BeakerIcon,
-  BuildingOffice2Icon,
-  CogIcon,
-  PaintBrushIcon,
-  TruckIcon,
-  UserGroupIcon,
-  WrenchScrewdriverIcon,
-  XMarkIcon,
+    Bars3Icon,
+    BeakerIcon,
+    BuildingOffice2Icon,
+    CogIcon,
+    PaintBrushIcon,
+    TruckIcon,
+    UserGroupIcon,
+    WrenchScrewdriverIcon,
+    XMarkIcon,
 } from '@heroicons/vue/24/outline'
 import { onMounted, onUnmounted, ref } from 'vue'
 

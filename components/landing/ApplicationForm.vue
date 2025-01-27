@@ -2,8 +2,8 @@
     <form @submit.prevent="handleSubmit" class="space-y-6 bg-gray-200 p-6 rounded-lg shadow-sm"
         enctype="multipart/form-data">
         <input type="hidden" name="access_key" :value="accessKey">
-        <input type="hidden" name="subject" value="New Job Application - Sefa Energy">
-        <input type="hidden" name="from_name" value="Sefa Energy Careers">
+        <input type="hidden" name="subject" value="New Job Application - Sefa Energy Global">
+        <input type="hidden" name="from_name" value="Sefa Energy Global Careers">
 
         <!-- Name Field -->
         <div>
