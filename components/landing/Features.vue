@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full py-8 sm:py-12 lg:py-16 mt-[750px] sm:mt-0 md:mt-[400px]">
+  <div class="relative w-full py-8 sm:py-12 lg:py-16 mt-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="relative z-10 text-center">
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight blue-filter mt-0">
@@ -12,6 +12,7 @@
       </div>
     </div>
   </div>
+
 
   <div class="px-4 sm:px-6 lg:px-8 w-full flex justify-center">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 max-w-7xl">
