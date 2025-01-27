@@ -1,18 +1,17 @@
 <template>
-  <div class="relative w-full py-8 sm:py-12 lg:py-16 mt-24">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div class="relative z-10 text-center">
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight blue-filter mt-0">
-          Our Solutions
-        </h2>
-        <p class="text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 text-slate-600 max-w-3xl mx-auto blue-filter">
-          We provide expert services across the oil and gas industry, combining local knowledge with international best
-          practices to deliver reliable results
-        </p>
-      </div>
+  <div class="relative w-full py-8 sm:py-12 lg:py-16 mt-64 sm:-mt-64 lg:-mt-64">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="relative z-10 text-center">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight blue-filter -mt-0">
+        Our Solutions
+      </h2>
+      <p class="text-sm sm:text-base lg:text-lg mt-2 sm:mt-3 text-slate-600 max-w-3xl mx-auto blue-filter">
+        We provide expert services across the oil and gas industry, combining local knowledge with international best
+        practices to deliver reliable results
+      </p>
     </div>
   </div>
-
+</div>
 
   <div class="px-4 sm:px-6 lg:px-8 w-full flex justify-center">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 max-w-7xl">

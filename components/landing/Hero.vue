@@ -1,5 +1,5 @@
 <template>
-   <div class="relative max-w-screen-xl mx-auto px-5 mb-20 h-[600px] sm:h-[650px] lg:h-[700px]">
+   <div class="max-w-screen-xl mx-auto px-5 mb-20 h-[700px] sm:h-[750px] lg:h-[800px]">
     <!-- Hero image -->
      <img 
       src="assets/img/sefa_header_image2.jpg" 
