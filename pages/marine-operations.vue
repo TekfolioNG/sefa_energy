@@ -41,7 +41,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/sefa_marine_engineering.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/sefa_marine_engineering.jpg" alt="Sefa Energy Global Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
@@ -67,7 +67,7 @@
 
 
                                     <p class="text-white mt-4">
-                                        With Sefa Energy, you gain a partner dedicated to providing expert marine
+                                        With Sefa Energy Global, you gain a partner dedicated to providing expert marine
                                         solutions tailored to meet your operational needs while upholding the highest
                                         standards of safety and efficiency.
                                     </p>
@@ -181,20 +181,20 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Marine Operations',
+    ogTitle: 'Sefa Energy Global Global Ltd | Marine Operations',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

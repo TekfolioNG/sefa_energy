@@ -192,20 +192,20 @@ const products: Product[] = [
 ];
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Products & Applications',
+    ogTitle: 'Sefa Energy Global Global Ltd | Products & Applications',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

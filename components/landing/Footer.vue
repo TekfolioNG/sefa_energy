@@ -6,14 +6,14 @@
         <!-- Grid 1: About Us -->
         <div class="space-y-6">
           <NuxtLink to="/">
-            <img class="h-20 w-auto" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Logo" />
+            <img class="h-20 w-auto" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Global Logo" />
           </NuxtLink>
           <div>
             <h3 class="text-lg font-bold mb-2 pb-2 border-b border-[#81DBFF]">
               FIND OUT WHO WE ARE
             </h3>
             <p class="text-gray-300 mb-4">
-              Sefa Energy specializes in supply, engineering, production chemicals, and environmental management of
+              Sefa Energy Global specializes in supply, engineering, production chemicals, and environmental management of
               energy solutions.
             </p>
             <NuxtLink to="/who-we-are"
@@ -104,7 +104,7 @@
     <!-- Bottom Footer -->
     <div class="bg-gray-800 py-4">
       <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-        <p>© {{ currentYear }} SEFA ENERGY LTD. ALL RIGHTS RESERVED. SEFA ENERGY IS A REGISTERED SUBSIDIARY OF SEFA OIL
+        <p>© {{ currentYear }} Sefa Energy Global LTD. ALL RIGHTS RESERVED. Sefa Energy Global IS A REGISTERED SUBSIDIARY OF SEFA OIL
           AND GAS LTD.</p>
         <a href="https://tekfol.io" target="_blank" rel="noopener noreferrer"
           class="hover:text-[#81DBFF] transition-colors mt-2 md:mt-0">
@@ -117,12 +117,12 @@
 
 <script setup>
 import {
-  ArrowRight,
-  Facebook,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
+    ArrowRight,
+    Facebook,
+    Linkedin,
+    Mail,
+    MapPin,
+    Phone,
 } from 'lucide-vue-next';
 import { computed } from 'vue';
 

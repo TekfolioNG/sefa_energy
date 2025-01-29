@@ -32,7 +32,7 @@
             <!-- Main Description -->
             <div class="prose prose-lg max-w-none">
                 <p class="text-gray-700 leading-relaxed mb-8">
-                    At Sefa Energy, we provide tailored chemical processing solutions designed specifically for the oil
+                    At Sefa Energy Global, we provide tailored chemical processing solutions designed specifically for the oil
                     and gas sector. Our team of chemical specialists provides ongoing support, ensuring clients have the
                     insights and assistance needed to implement our <a href="/our-products-and-applications"
                         target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
@@ -44,7 +44,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/oli_gas_chemical.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/oli_gas_chemical.jpg" alt="Sefa Energy Global Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
@@ -66,7 +66,7 @@
 
 
                                     <p class="text-white mt-4">
-                                        With Sefa Energy as your partner, you gain access to specialized chemical
+                                        With Sefa Energy Global as your partner, you gain access to specialized chemical
                                         solutions that not only improve operational efficiency but also contribute to
                                         safer and more sustainable practices in the oil and gas industry.
                                     </p>
@@ -184,20 +184,20 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Oil & Gas Chemical Processing',
+    ogTitle: 'Sefa Energy Global Global Ltd | Oil & Gas Chemical Processings',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

@@ -6,9 +6,12 @@
             <div class="max-w-5xl mx-auto">
                 <p
                     class="text-white text-base sm:text-lg md:text-2xl leading-relaxed font-light text-center mx-auto md:max-w-3xl">
-                    Oil and gas keep our world moving. That's why at <b><i>Sefa Energy</i></b>, we work hard to provide
-                    the best solutions, from supplying quality products to managing complex projects. Our skilled teams
-                    and proven methods help businesses and individuals work and commute safely and protect their assets.
+                    Oil and gas keep our world moving and at <b><i>Sefa Energy Global</i></b>, we are committed to
+                    powering
+                    progress
+                    with premium products and service delivery. We empower businesses and
+                    individuals to operate safely, protect critical assets, and achieve their goals in an ever-evolving
+                    energy landscape.
                 </p>
             </div>
         </div>

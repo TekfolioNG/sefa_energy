@@ -35,7 +35,7 @@
             <!-- Main Description -->
             <div class="prose prose-lg max-w-none">
                 <p class="text-gray-700 leading-relaxed mb-8">
-                    Sefa Energy specializes in supply, engineering, production chemicals, and environmental management
+                    Sefa Energy Global specializes in supply, engineering, production chemicals, and environmental management
                     of energy solutions.
                     We’re dedicated to sustainable practices and operational excellence, delivering value and innovation
                     that empower communities and partners globally.
@@ -46,7 +46,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/our_vision_sefa.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/our_vision_sefa.jpg" alt="Sefa Energy Global Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
@@ -176,20 +176,20 @@ const values: Value[] = [
     }
 ];
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Who We Are',
+    ogTitle: 'Sefa Energy Global Global Ltd | Who We Are',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

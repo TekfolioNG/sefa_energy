@@ -7,7 +7,7 @@
                 <h3 class="text-3xl font-medium tracking-wide mb-8">GET IN TOUCH</h3>
             </div>
 
-            <h3 class="text-[#0E0147] font-bold text-2xl mt-8">Sefa Energy</h3>
+            <h3 class="text-[#0E0147] font-bold text-2xl mt-8">Sefa Energy Global</h3>
             <p class="mb-0">9 Abosede Ademakinwa Street,</p>
             <p class="mb-0">Ogudu, Lagos, Nigeria</p>
             <p class="mb-0">(+234) 814 857 1524</p>

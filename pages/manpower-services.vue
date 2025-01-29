@@ -41,7 +41,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/sefa_manpower.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/sefa_manpower.jpg" alt="Sefa Energy Global Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
@@ -51,7 +51,7 @@
                                     <p class="text-white mb-4">
                                         Our unwavering commitment to quality and compliance guarantees that every
                                         professional we supply is equipped with the expertise and certifications needed
-                                        to excel in high-stakes environments. With Sefa Energy, you gain more than
+                                        to excel in high-stakes environments. With Sefa Energy Global, you gain more than
                                         manpower—you gain a reliable partner dedicated to supporting your success.
                                     </p>
 
@@ -62,7 +62,7 @@
 
 
                                     <p class="text-white mt-4">
-                                        At Sefa Energy, we go beyond staffing by creating value for our partners. As a
+                                        At Sefa Energy Global, we go beyond staffing by creating value for our partners. As a
                                         trusted manpower solutions provider, we support the smooth operation of projects
                                         across the energy supply chain, helping you achieve your goals with confidence
                                         and precision.
@@ -168,20 +168,20 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Manpower Services',
+    ogTitle: 'Sefa Energy Global Global Ltd | Manpower Services',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

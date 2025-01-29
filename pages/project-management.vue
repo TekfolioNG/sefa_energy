@@ -42,7 +42,7 @@
                     <div class="flex flex-col lg:flex-row">
                         <!-- Left side - Image -->
                         <div class="w-full lg:w-1/2 h-[300px] lg:h-[600px] overflow-hidden">
-                            <img src="assets/img/project_management.jpg" alt="Sefa Energy Vision"
+                            <img src="assets/img/project_management.jpg" alt="Sefa Energy Global Vision"
                                 class="w-full h-full object-cover object-top" />
                         </div>
 
@@ -52,7 +52,7 @@
                                     <p class="text-white mb-4">
                                         Our team of experienced project managers brings industry-specific expertise and
                                         a commitment to excellence, ensuring that each project achieves its goals while
-                                        exceeding client expectations. With Sefa Energy, you gain a trusted partner who
+                                        exceeding client expectations. With Sefa Energy Global, you gain a trusted partner who
                                         prioritizes your success.
                                     </p>
 
@@ -63,7 +63,7 @@
 
 
                                     <p class="text-white mt-4">
-                                        At Sefa Energy, project management is more than a service—it’s a partnership. By
+                                        At Sefa Energy Global, project management is more than a service—it’s a partnership. By
                                         aligning your goals with our expertise, we deliver value-driven solutions that
                                         empower your operations and support your long-term success in the energy sector.
                                     </p>
@@ -179,20 +179,20 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Project Management',
+    ogTitle: 'Sefa Energy Global Global Ltd | Project Management',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

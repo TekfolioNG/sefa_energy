@@ -1,7 +1,12 @@
 <template>
     <LandingContainer>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <h1 class="text-4xl font-bold text-[#01133A] mb-8">Newsroom</h1>
+            <div class="mx-auto max-w-2xl lg:mx-0 mb-8 mt-28 sm:mt-20 md:mt-24 lg:mt-28">
+                <h2 class="text-pretty text-4xl font-light tracking-tight text-black-100 sm:text-5xl">
+                    THE FUTURE OF ENERGY
+                </h2>
+                <p class="mt-2 text-lg/8 text-black-300">Industry Trends & Insights from Our Newsroom</p>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <article v-for="post in posts" :key="post.id" class="flex flex-col">
                     <img :src="post.featuredImage.fields.file.url" :alt="post.title"
@@ -38,7 +43,7 @@ definePageMeta({
 import type { BlogPost } from '~/types/contentful';
 
 const { fetchBlogPosts } = useContentful()
-const posts = ref < BlogPost[] > ([])
+const posts = ref<BlogPost[]>([])
 
 onMounted(async () => {
     posts.value = await fetchBlogPosts()
@@ -51,4 +56,22 @@ const formatDate = (dateString: string) => {
         day: 'numeric'
     })
 }
+useSeoMeta({
+    title: 'Sefa Energy Global Global Ltd | Newsroom',
+    ogTitle: 'Sefa Energy Global Global Ltd | Newsroom',
+    description: 'Making Energy Work For You.',
+    ogDescription: 'Making Energy Work For You.',
+
+    twitterCard: 'summary_large_image',
+    twitterTitle: 'Sefa Energy Global Global Ltd',
+    twitterDescription: 'Making Energy Work For You.',
+
+    ogImage: {
+        url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sefa Energy Global Global Ltd - Energy Solutions'
+    },
+    twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
+})
 </script>

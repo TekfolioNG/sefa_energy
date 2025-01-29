@@ -38,7 +38,7 @@
                     </h3>
                     <p
                         class="text-pretty text-4xl font-light tracking-tight text-black-900 text-lg leading-relaxed mb-4">
-                        At Sefa Energy, we believe in making energy work for a better future. We focus on responsible
+                        At Sefa Energy Global, we believe in making energy work for a better future. We focus on responsible
                         energy practices that help meet the world's needs while protecting the environment. Our goal is
                         to create a greener, cleaner world through every decision we make.
                     </p>
@@ -91,7 +91,7 @@
                     </p>
                     <p
                         class="text-pretty text-4xl font-light tracking-tight text-black-900 text-lg leading-relaxed mb-4">
-                        Sefa Energy is also fully committed to <a href="https://www.energytransition.gov.ng/"
+                        Sefa Energy Global is also fully committed to <a href="https://www.energytransition.gov.ng/"
                             class="font-bold underline text-blue-600 hover:text-blue-800">Nigeria's Energy Transition
                             Plan (ETP)</a>, which aims to reduce the country's dependence on fossil fuels and reach
                         net-zero emissions by 2060. This plan is a big step toward a cleaner, more sustainable energy
@@ -110,7 +110,7 @@
             <div class="w-full max-w-none mb-12 -mt-12">
                 <p class="text-pretty text-4xl font-light tracking-tight text-black-900 text-lg leading-relaxed mb-6">
                     As part of this transition, the ETP is expected to create millions of new jobs in sectors like
-                    renewable energy and electric mobility. At Sefa Energy, we are committed to supporting this
+                    renewable energy and electric mobility. At Sefa Energy Global, we are committed to supporting this
                     growth by investing in new skills and technology that will help make these goals a reality.
                 </p>
                 <p class="text-pretty text-4xl font-light tracking-tight text-black-900 text-lg leading-relaxed mb-12">
@@ -134,20 +134,20 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Sustainability',
+    ogTitle: 'Sefa Energy Global Global Ltd | Sustainability',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })

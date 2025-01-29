@@ -34,11 +34,11 @@
 
                 <div class="w-full md:w-3/5 max-w-lg">
                     <h3 class="text-pretty text-4xl font-light tracking-tight text-black-1200 mb-4">
-                        <b>Build a Career with Sefa Energy</b>
+                        <b>Build a Career with Sefa Energy Global</b>
                     </h3>
                     <p
                         class="text-pretty text-4xl font-light tracking-tight text-black-900 text-lg leading-relaxed mb-4">
-                        At Sefa Energy, we value your skills, ideas, and passion. Joining our team means becoming part
+                        At Sefa Energy Global, we value your skills, ideas, and passion. Joining our team means becoming part
                         of an environment where your contributions matter and where opportunities are personalized to
                         help
                         you grow — whether you’re an experienced professional or starting your career in the oil and gas
@@ -58,7 +58,7 @@
                             to
                             <a href="mailto:jobs@sefaenergy.com"
                                 class="text-blue-600 underline hover:text-blue-800">jobs@sefaenergy.com</a>
-                            or complete the form below.</b> Let's explore how you can grow with us at Sefa Energy. Your
+                            or complete the form below.</b> Let's explore how you can grow with us at Sefa Energy Global. Your
                         journey starts here!
                     </p>
                 </div>
@@ -91,20 +91,20 @@ definePageMeta({
 });
 
 useSeoMeta({
-    title: 'Sefa Energy Ltd',
-    ogTitle: 'Sefa Energy Ltd',
+    title: 'Sefa Energy Global Global Ltd | Career',
+    ogTitle: 'Sefa Energy Global Global Ltd | Career',
     description: 'Making Energy Work For You.',
     ogDescription: 'Making Energy Work For You.',
 
     twitterCard: 'summary_large_image',
-    twitterTitle: 'Sefa Energy Ltd',
+    twitterTitle: 'Sefa Energy Global Ltd',
     twitterDescription: 'Making Energy Work For You.',
 
     ogImage: {
         url: 'https://sefaenergy.com/Sefa_Energy_Ltd.png',
         width: 1200,
         height: 630,
-        alt: 'Sefa Energy Ltd - Energy Solutions'
+        alt: 'Sefa Energy Global Ltd - Energy Solutions'
     },
     twitterImage: 'https://sefaenergy.com/Sefa_Energy_Ltd.png'
 })
