@@ -13,7 +13,8 @@
               FIND OUT WHO WE ARE
             </h3>
             <p class="text-gray-300 mb-4">
-              Sefa Energy Global specializes in supply, engineering, production chemicals, and environmental management of
+              Sefa Energy Global specializes in supply, engineering, production chemicals, and environmental management
+              of
               energy solutions.
             </p>
             <NuxtLink to="/who-we-are"
@@ -79,7 +80,8 @@
           <div class="space-y-4">
             <div class="flex items-start space-x-3">
               <MapPin class="w-6 h-6 text-[#81DBFF] flex-shrink-0 mt-1" stroke-width="1" />
-              <p class="text-gray-300">9 Abosede Ademakinwa Street, Ogudu, Lagos, Nigeria</p>
+              <p class="text-gray-300">11 Oromineke Layout, <br>Off Wogu Street, D-Line, <br>Port Harcourt,
+                Nigeria</br></br></p>
             </div>
             <div class="flex items-start space-x-3">
               <Phone class="w-6 h-6 text-[#81DBFF] flex-shrink-0 mt-1" stroke-width="1" />
@@ -104,7 +106,8 @@
     <!-- Bottom Footer -->
     <div class="bg-gray-800 py-4">
       <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-        <p>© {{ currentYear }} Sefa Energy Global LTD. ALL RIGHTS RESERVED. Sefa Energy Global IS A REGISTERED SUBSIDIARY OF SEFA OIL
+        <p>© {{ currentYear }} Sefa Energy Global LTD. ALL RIGHTS RESERVED. Sefa Energy Global IS A REGISTERED
+          SUBSIDIARY OF SEFA OIL
           AND GAS LTD.</p>
         <a href="https://tekfol.io" target="_blank" rel="noopener noreferrer"
           class="hover:text-[#81DBFF] transition-colors mt-2 md:mt-0">
@@ -117,12 +120,12 @@
 
 <script setup>
 import {
-    ArrowRight,
-    Facebook,
-    Linkedin,
-    Mail,
-    MapPin,
-    Phone,
+  ArrowRight,
+  Facebook,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
 } from 'lucide-vue-next';
 import { computed } from 'vue';
 

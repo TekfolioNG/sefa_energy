@@ -8,8 +8,9 @@
             </div>
 
             <h3 class="text-[#0E0147] font-bold text-2xl mt-8">Sefa Energy Global</h3>
-            <p class="mb-0">9 Abosede Ademakinwa Street,</p>
-            <p class="mb-0">Ogudu, Lagos, Nigeria</p>
+            <p class="mb-0">11 Oromineke Layout,</p>
+            <p class="mb-0">Off Wogu Street, D-Line,</p>
+            <p class="mb-0">PortHarcourt, Nigeria</p>
             <p class="mb-0">(+234) 814 857 1524</p>
             <p class="mb-4">(+234) 901 065 4197</p>
         </div>
