@@ -6,7 +6,7 @@
         <div class="flex flex-shrink-0 lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Sefa Energy Global</span>
-            <img class="h-20 w-auto ml-4" src="assets/img/sefa_energy_logo_transparent.png" alt="Sefa Energy Global Logo" />
+            <img class="h-20 w-auto ml-4" src="assets/img/sefa-logo-final.png" alt="Sefa Energy Global Logo" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -157,24 +157,24 @@
 
 <script setup>
 import {
-    Dialog,
-    DialogPanel,
-    Popover,
-    PopoverButton,
-    PopoverGroup,
-    PopoverPanel
+  Dialog,
+  DialogPanel,
+  Popover,
+  PopoverButton,
+  PopoverGroup,
+  PopoverPanel
 } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 import {
-    Bars3Icon,
-    BeakerIcon,
-    BuildingOffice2Icon,
-    CogIcon,
-    PaintBrushIcon,
-    TruckIcon,
-    UserGroupIcon,
-    WrenchScrewdriverIcon,
-    XMarkIcon,
+  Bars3Icon,
+  BeakerIcon,
+  BuildingOffice2Icon,
+  CogIcon,
+  PaintBrushIcon,
+  TruckIcon,
+  UserGroupIcon,
+  WrenchScrewdriverIcon,
+  XMarkIcon,
 } from '@heroicons/vue/24/outline'
 import { onMounted, onUnmounted, ref } from 'vue'
 

@@ -13,12 +13,12 @@
         </div>
 
         <div class="container mx-auto pt-12">
-            <div class="grid grid-cols-12 gap-0 items-stretch">
+            <div class="grid grid-cols-12 gap-0 items-stretch h-full">
                 <!-- Image Column -->
-                <div class="col-span-12 lg:col-span-6 relative lg:order-1 -mt-16">
-                    <div class="relative h-full">
-                        <img src="@/assets/img/home-image-sefa.png" alt="Laboratory equipment"
-                            class="w-full h-auto object-cover rounded-lg lg:rounded-none" />
+                <div class="col-span-12 lg:col-span-6 relative lg:order-1 -mt-16 sm:mt-16 h-full p-0">
+                    <div class="relative h-full p-0">
+                        <img src="@/assets/img/home-image-sefa.png" alt="Landscape_Sefa"
+                            class="w-[95%] h-[90%] object-cover object-bottom rounded-lg lg:rounded-none" />
                     </div>
                 </div>
 
