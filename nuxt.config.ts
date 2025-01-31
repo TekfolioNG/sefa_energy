@@ -2,11 +2,8 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      viewport: 'width=device-width, initial-scale=1',
-      meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-      ],
-    }
+    viewport: 'width=device-width, initial-scale=1'
+  }
   },
 
   devtools: { enabled: true },
