@@ -28,10 +28,9 @@ useSeoMeta({
 <template>
   <LandingContainer>
     <LandingHero />
-  <LandingValues />
-    <LandingFeatures />
+      <LandingFeatures />
     <LandingHereForYou />
-    <LandingContactHome /> 
+    <LandingContactHome />
     <LandingPrivacyNotice />
   </LandingContainer>
 </template>
