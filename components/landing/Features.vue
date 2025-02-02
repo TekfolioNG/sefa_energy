@@ -107,4 +107,16 @@ const features = [
 .blue-filter {
   filter: invert(10%) sepia(88%) saturate(5000%) hue-rotate(250deg) brightness(50%) contrast(120%);
 }
+@media (min-width: 344px) and (max-height: 882px) {
+  .custom-margin {
+    margin-top: 36rem;
+  }
+}
+
+@media (min-width: 412px) and (max-height: 915px) {
+  .custom-margin {
+    margin-top: 35rem;
+  }
+}
+
 </style>
