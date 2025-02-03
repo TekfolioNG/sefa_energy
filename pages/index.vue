@@ -27,6 +27,7 @@ useSeoMeta({
 
 <template>
   <LandingContainer>
+    <div class="flex flex-col min-h-screen"></div>
     <LandingHero />
       <LandingFeatures />
     <LandingHereForYou />
